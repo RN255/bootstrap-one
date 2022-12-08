@@ -11,32 +11,145 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div class="container">
-        <a href="#" class="navbar-brand">Brand logo</a>
+        <a class="navbar-brand" href="#">Navbar</a>
         <button
           class="navbar-toggler"
+          type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#nav"
-          aria-controls="nav"
+          data-bs-target="#navmenu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav">
-          <ul class="nav navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="#" class="nav-link">page1</a>
+              <a class="nav-link active" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">page2</a>
+              <a class="nav-link" href="#">Link1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link2</a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
+
+    <!-- intro item  -->
+
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center">
+          <div>
+            <h1>
+              Title of this section
+              <span class="text-warning">(Important!)</span>
+            </h1>
+            <p class="my-4 pe-3">Input your text here, it should look nice!</p>
+
+            <button class="btn btn-primary btn-lg">(no logic yet)</button>
+          </div>
+          <img
+            src="images\hotelTwo.jpg"
+            alt="hotel room"
+            class="img-fluid w-50 d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- newsletter  -->
+
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 md-md-0 text-center text-md-start">
+            Sign up for newsletter
+          </h3>
+          <div class="input-group mb-3">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="enter email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button class="btn btn-dark" type="button" id="button-addon2">
+              Click me(no logic yet)
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- boxes -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <h1 class="mb-3">
+                  <i class="bi bi-laptop"></i>
+                </h1>
+                <h3 class="card-title mb-3">Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquam?
+                </p>
+                <a href="#" class="btn btn-dark border">see more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <h1 class="mb-3">
+                  <i class="bi bi-laptop"></i>
+                </h1>
+                <h3 class="card-title mb-3">Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquam?
+                </p>
+                <a href="#" class="btn btn-dark border">see more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <h1 class="mb-3">
+                  <i class="bi bi-laptop"></i>
+                </h1>
+                <h3 class="card-title mb-3">Title</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium, aliquam?
+                </p>
+                <a href="#" class="btn btn-dark border">see more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- you are here at 39 minutes....  -->
+
+    <!-- old stuff  -->
 
     <div class="container">
       <div class="row">
