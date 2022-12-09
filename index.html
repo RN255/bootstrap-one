@@ -22,7 +22,9 @@
 
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="images\mocha.png" alt="coffee" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,25 +53,24 @@
 
     <section class="bg-dark text-light p-5 text-center text-sm-start">
       <div class="container">
-        <div class="d-sm-flex align-items-center">
-          <div>
-            <h1>
-              Title of this section
-              <span class="text-warning">(Important!)</span>
-            </h1>
-            <p class="my-4 pe-3">Input your text here, it should look nice!</p>
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="m-5">
+            <h1>Enjoy your mornings with a new aroma</h1>
+            <p class="my-0 pe-0">
+              Indulging yourself with chocolate and coffee
+            </p>
 
             <button
               type="button"
-              class="btn btn-primary btn-lg"
+              class="btn btn-primary btn-lg mt-3"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              (no logic yet)
+              Join mailing list
             </button>
           </div>
           <img
-            src="images\hotelTwo.jpg"
+            src="images\coffee-img.jpg"
             alt="hotel room"
             class="img-fluid w-50 d-none d-sm-block"
           />
@@ -90,7 +91,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Contact</h1>
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Join mailing list
+            </h1>
             <button
               type="button"
               class="btn-close"
@@ -173,51 +176,55 @@
 
     <!-- boxes -->
 
-    <section class="p-5">
+    <section class="p-5" id="learn">
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+            <div class="card bg-dark text-light h-100">
+              <div class="card-body text-center d-flex flex-column">
                 <h1 class="mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <img src="images\chocolate.png" alt="chocolate" />
                 </h1>
-                <h3 class="card-title mb-3">Title</h3>
+                <h3 class="card-title mb-3">The finest chocolate</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium, aliquam?
+                  Our chocolate comes from Venezuela, the cradle of fine cacao
+                  beans. And in terms of provenance, there is no more authentic
+                  – or, arguably, higher-quality – source of fine chocolate in
+                  the world.
                 </p>
-                <a href="#" class="btn btn-dark border">see more</a>
+                <a href="#" class="btn btn-dark border mt-auto">see more</a>
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+            <div class="card bg-dark text-light h-100">
+              <div class="card-body text-center d-flex flex-column">
                 <h1 class="mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <img src="images\coffee-beans.png" alt="chocolate" />
                 </h1>
-                <h3 class="card-title mb-3">Title</h3>
+                <h3 class="card-title mb-3">The finest coffee</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium, aliquam?
+                  The best coffee in the world can be found in Panama; more
+                  precisely at the Geisha farms of Ninety Plus, Hacienda la
+                  Esmeralda & the Lamastus. All our coffee is sourced from here.
                 </p>
-                <a href="#" class="btn btn-dark border">see more</a>
+                <a href="#" class="btn btn-dark border mt-auto">see more</a>
               </div>
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+            <div class="card bg-dark text-light h-100">
+              <div class="card-body text-center d-flex flex-column">
                 <h1 class="mb-3">
-                  <i class="bi bi-laptop"></i>
+                  <img src="images\latte.png" alt="chocolate" />
                 </h1>
-                <h3 class="card-title mb-3">Title</h3>
+                <h3 class="card-title mb-3">The finest drink</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium, aliquam?
+                  For the last twenty years, we have been working tirelessly to
+                  create a line of premium coffee that people everywhere can
+                  trust.
                 </p>
-                <a href="#" class="btn btn-dark border">see more</a>
+                <a href="#" class="btn btn-dark border mt-auto">see more</a>
               </div>
             </div>
           </div>
@@ -227,7 +234,7 @@
 
     <!-- learn section -->
 
-    <section class="pb-5" id="learn">
+    <section class="pb-5">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">

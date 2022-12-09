@@ -4,8 +4,20 @@ body::before {
   height: 60px;
 }
 
+nav img {
+  width:40px;
+}
+
+#learn img {
+  width:40px;
+}
+
 .box {
   background-color: aqua;
   min-height: 50px;
+}
+
+section {
+  scroll-margin-top: 80px;
 }
 
