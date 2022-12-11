@@ -1,15 +1,27 @@
-body::before {
+/* body::before {
   display: block;
   content: "";
   height: 70px;
-}
+} */
 
 nav img {
-  width:40px;
+  width: 40px;
+}
+
+.carousel-inner img {
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #learn img {
-  width:40px;
+  width: 40px;
 }
 
 .box {
@@ -22,6 +34,9 @@ section {
 }
 
 footer img {
-  width:40px;
+  width: 40px;
 }
 
+#footerImgCol {
+  height: 20px;
+}
